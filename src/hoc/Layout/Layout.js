@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
 
-import Aux from '../Aux/Aux';
+//[jwc]+1 BugFix: import Aux from '../../hoc/Aux/Aux';
+import Aux from '../_Aux/_Aux';
 import classes from './Layout.css';
 import Toolbar from '../../components/Navigation/Toolbar/Toolbar';
 import SideDrawer from '../../components/Navigation/SideDrawer/SideDrawer';
